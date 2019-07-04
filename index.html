@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Get Started | Documentation</title>
+    <meta name="description" content="by the community for the community">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.51b6c885.css" as="style"><link rel="preload" href="/assets/js/app.16bc0f2c.js" as="script"><link rel="preload" href="/assets/js/2.3fbdcbfd.js" as="script"><link rel="preload" href="/assets/js/5.f1f7f765.js" as="script"><link rel="prefetch" href="/assets/js/10.efa36e92.js"><link rel="prefetch" href="/assets/js/11.5f8757d2.js"><link rel="prefetch" href="/assets/js/3.47e2e978.js"><link rel="prefetch" href="/assets/js/4.b2ff0a60.js"><link rel="prefetch" href="/assets/js/6.74fcb735.js"><link rel="prefetch" href="/assets/js/7.d24c2ef2.js"><link rel="prefetch" href="/assets/js/8.1c031f71.js"><link rel="prefetch" href="/assets/js/9.76c7c03e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.51b6c885.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><img src="/logo.svg" alt="Documentation" class="logo"> <span class="site-name can-hide">Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link router-link-exact-active router-link-active">Blockchain</a></div><div class="nav-item"><a href="/onefx/get-started.html" class="nav-link">OneFx</a></div> <a href="https://github.com/iotexproject/iotex-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link router-link-exact-active router-link-active">Blockchain</a></div><div class="nav-item"><a href="/onefx/get-started.html" class="nav-link">OneFx</a></div> <a href="https://github.com/iotexproject/iotex-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/" class="active sidebar-link">Get Started</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/#build-and-run" class="sidebar-link">Build and Run</a></li><li class="sidebar-sub-header"><a href="/#cli-command-line-interface" class="sidebar-link">CLI (command-line interface)</a></li><li class="sidebar-sub-header"><a href="/#bookkeeping" class="sidebar-link">Bookkeeping</a></li><li class="sidebar-sub-header"><a href="/#action-injector" class="sidebar-link">Action Injector</a></li><li class="sidebar-sub-header"><a href="/#explorer" class="sidebar-link">Explorer</a></li><li class="sidebar-sub-header"><a href="/#api" class="sidebar-link">API</a></li><li class="sidebar-sub-header"><a href="/#analytics" class="sidebar-link">Analytics</a></li><li class="sidebar-sub-header"><a href="/#testnet" class="sidebar-link">Testnet</a></li><li class="sidebar-sub-header"><a href="/#write-a-smart-contract" class="sidebar-link">Write a Smart Contract</a></li><li class="sidebar-sub-header"><a href="/#glossary" class="sidebar-link">Glossary</a></li></ul></li><li><a href="/docs/libraries-and-tools.html" class="sidebar-link">Libraries and Tools</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#sdk-overview" class="sidebar-link">SDK Overview</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#account" class="sidebar-link">Account</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#transfer" class="sidebar-link">Transfer</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#smart-contract" class="sidebar-link">Smart Contract</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#rpc-methods" class="sidebar-link">RPC Methods</a></li></ul></li><li><a href="/docs/misc.html" class="sidebar-link">Misc</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/misc.html#contributing" class="sidebar-link">Contributing</a></li><li class="sidebar-sub-header"><a href="/docs/misc.html#faq" class="sidebar-link">FAQ</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h2 id="introduction"><a href="#introduction" aria-hidden="true" class="header-anchor">#</a> Introduction</h2> <p>Founded as an open-source project in 2017, IoTeX is building the world's leading auto-scalable and privacy-centric blockchain platform for the Internet of Things (IoT). Our mission is to build a decentralized trust fabric for the era of collaboration and data exchange among devices, applications and people. We are developing several innovative technologies in-house, including the blockchain-in-blockchain architecture for heterogeneous computing, fast and robust Roll-DPoS consensus scheme, and efficient trusted computing protocols. More details can be found <a href="https://iotex.io/academics" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. IoTeX core team is continuously working hard to bring the community more cool features.</p> <h3 id="grand-design"><a href="#grand-design" aria-hidden="true" class="header-anchor">#</a> Grand Design</h3> <p>The overall design of IoTeX Network employs Separation of Powers,a term coined by Charles-Louis de Secondat which states that democratic political authority should be divided into legislative, executive and judicial powers. Generally speaking, IoTeX Network is a decentralized trust fabric consisting of multiple blockchains to connect humans, machines, applications, arranged hierarchically and serving different purposes.
+<img src="https://cdn-images-1.medium.com/max/2600/1*D6GiPlh9TdikW82c8j1jrA.png" alt="IoTeX Rootchain Architecture"></p> <ul><li>Governance layer, instantiated by the Gravity Chain is the layer that acts as a decentralized government for the IoTeX network. It exclusively focuses on decentralization and security, a liveness-oriented consensus scheme (e.g., PoS variant) to facilitate tasks such as staking, voting, slashing, protocol-related proposals, and more. Before the launch of the gravity chain Q3/Q4 2019, Ethereum mainnet will be used as the governance layer.</li> <li>Orchestration layer, instantiated by the Root Chain, is the general manager and coordinator for all subchains. It is powered by our safety-oriented Roll-DPoS consensus mechanism and aims for reasonable throughput, reliability and transparency. It is being launched in April 2019 (a.k.a, Mainnet Alpha) as the first blockchain within IoTeX Network.</li> <li>Operational layer, instantiated by various layer2 subchains, is the concrete unit that handles business logic related to specific use cases/applications. Different subchains can interoperate with each other via cross-chain communication. The first IoTeX subchain is expected to be launched in Q2/Q3 2019 focusing on trusted computing.</li> <li>Execution layer, is an optional layer to which specific subchains can offload concrete computation/storage tasks. The segregation of verification &amp; ordering of states from generation of states is extremely helpful to improve scalability, functionality and usability of a decentralized system.</li></ul> <p>In our design, all blockchains share the same pool of delegate resource which produces consensus to secure the entire network and is the cornerstone of the collective trust. With the collective trusted being provided, one can easily spin up a subchain as effortlessly as spinning up an EC2 instance on AWS Cloud. Thanks to the abstraction of EDR, subchains running within IoTeX Network can have dramatically different state transition and execution layers as well as the underlying crypto economics.</p> <p>The reason why we separate duties across multiple blockchain layers we firmly believe in decentralized governance. Many DPoS blockchain manage governance tasks (i.e.,. staking/voting) on the core operational layer blockchain - IoTeX believes governance tasks should not be grouped with operational tasks on the same chain. For example, elected Delegates, as a vested interest group, may disregard staking/voting transactions in the block production process to mitigate being de-elected (i.e., conflict of interest). Furthermore, elected Delegates may enforce protocol upgrades (by upgrading their software without consent from other users) that are not favorable to the rest of the ecosystem.</p> <h3 id="root-chain"><a href="#root-chain" aria-hidden="true" class="header-anchor">#</a> Root Chain</h3> <p>The root chain will be launched in Q1 2019 (a.k.a, Mainnet Alpha), which is consisted of the four layered components:</p> <ul><li>Networking layer enables the peer-to-peer communication between IoTex nodes, and provide blockchain services (through <a href="https://grpc.io/" target="_blank" rel="noopener noreferrer">grpc<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>) to other applications and users</li> <li>Consensus layer runs Roll-DPoS to select the active block producers among a pool of block producer candidates (who are elected via staking and voting), using a decentralized randomized algorithm (DKG + BLS).</li> <li>State transition layer is composed of five subprotocols and is responsible for transiting the states of the blockchain from one to the other.</li> <li>Programing layer implements the business logics for state transition. Currently it supports Ethereum virtual machine (EVM) with smart contracts written in Solidity. Developers could seamlessly port existing DApps onto it.</li></ul> <p><img src="https://cdn-images-1.medium.com/max/2000/0*cPrsvVa1wIE0cqnS" alt="IoTeX Rootchain Architecture"></p> <h3 id="subprotocols-and-actions"><a href="#subprotocols-and-actions" aria-hidden="true" class="header-anchor">#</a> Subprotocols and Actions</h3> <p>The state transition layer of IoTex root chain is flexible enough that any subprotocol can be plugged in without hustling.</p> <ul><li>Account subprotocol provides the functionality for bookkeeping balances of accounts living on this blockchain.</li> <li>Execution subprotocol manages the execution of smart contracts and roll forward/back of the states.</li> <li>Poll subprotocol syncs with our staking/voting contracts living on Ethereum (which plays the role of Gravity chain before its ready), and instructs the delegates promotion/demotion on IoTeX root chain.</li> <li>Rewarding subprotocol is responsible for distributing block reward and epoch reward to eligible delegates and candidates.</li> <li>Multichain subprotocol manages sub-chain management and cross-chain communication which is a work-in-progress.</li></ul> <p>In the IoTeX network, transactions (the atomic operation unit to interact with the blockchain data) are referred to as &quot;actions&quot;, and there are five types of actions corresponding to the five subprotocols as described. More information can be found <a href="https://github.com/iotexproject/iotex-core/blob/master/proto/types/action.proto" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h2 id="build-and-run"><a href="#build-and-run" aria-hidden="true" class="header-anchor">#</a> Build and Run</h2> <p>The simplest way to get started with  IoTeX software package is to run it in stand-alone mode for demonstration and testing purposes. &quot;Stand-alone&quot; indicates a single node comprises the entire blockchain by itself, which generates new block, validates the block, and adds the block to the blockchain. This simple mode allows user to quickly launch and test a blockchain with a single computer/node, without requiring much hardware resources.</p> <h3 id="from-the-source"><a href="#from-the-source" aria-hidden="true" class="header-anchor">#</a> From the source</h3> <ol><li>setup golang environment, e.g., <a href="https://medium.com/@RidhamTarpara/install-go-1-11-on-ubuntu-18-04-16-04-lts-8c098c503c5f" target="_blank" rel="noopener noreferrer">on Linux<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, <a href="https://medium.com/golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8" target="_blank" rel="noopener noreferrer">on MacOS<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><code>git clone git@github.com:iotexproject/iotex-core.git</code></li> <li><code>make run</code></li></ol> <h3 id="use-docker-image"><a href="#use-docker-image" aria-hidden="true" class="header-anchor">#</a> Use docker image</h3> <ol><li><p>Install docker on your host machine at https://docs.docker.com/install/. Once docker is properly installed and started, download the IoTeX docker image: <code>docker pull iotex/iotex-core:latest</code></p></li> <li><p>Download the config file config_delegate.yaml from <a href="https://github.com/iotexproject/iotex-core" target="_blank" rel="noopener noreferrer">iotex-core<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. Open the file and change certain parameters of the stand-alone node as you need. For instance, blockCreationInterval specifies the amount of time it takes (in seconds) to produce next block. Change it to a larger value if you want block producing at a slower pace.</p></li> <li><p><code>sudo docker run -d -p 30100:14004 --mount type=bind,source=$PWD/config_delegate.yaml,target=/etc/iotex/config_local_delegate.yaml iotex/iotex-core:testnet iotex-server -config-path=/etc/iotex/config_local_delegate.yaml</code></p></li></ol> <h2 id="cli-command-line-interface"><a href="#cli-command-line-interface" aria-hidden="true" class="header-anchor">#</a> CLI (command-line interface)</h2> <p>ioctl is a command-line interface for interacting with IoTeX blockchains.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="bash" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-bash extra-class"><pre class="language-bash"><code>Usage:
+  ioctl <span class="token punctuation">[</span>command<span class="token punctuation">]</span>
+
+Available Commands:
+  account     Deal with accounts of IoTeX blockchain
+  action      Deal with actions of IoTeX blockchain
+  xrc20       Operate XRC20 contracts
+  <span class="token function">bc</span>          Deal with block chain of IoTeX blockchain
+  <span class="token function">help</span>        Help about any <span class="token function">command</span>
+  node        Deal with nodes of IoTeX blockchain
+  version     Print the version number of ioctl
+
+Flags:
+  -h, --help   <span class="token function">help</span> <span class="token keyword">for</span> ioctl
+</code></pre></div></section></div></div> <h3 id="install-release-build"><a href="#install-release-build" aria-hidden="true" class="header-anchor">#</a> Install Release Build</h3> <div class="language- extra-class"><pre class="language-text"><code>curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh
+</code></pre></div><h3 id="install-latest-unstable-build"><a href="#install-latest-unstable-build" aria-hidden="true" class="header-anchor">#</a> Install Latest/Unstable Build</h3> <div class="language- extra-class"><pre class="language-text"><code>curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh -s &quot;unstable&quot;
+</code></pre></div><h3 id="usage-and-examples"><a href="#usage-and-examples" aria-hidden="true" class="header-anchor">#</a> Usage and Examples</h3> <h4 id="set-config"><a href="#set-config" aria-hidden="true" class="header-anchor">#</a> Set Config</h4> <p><code>Usage: ioctl config set VARIABLE VALUE</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl config set endpoint api.iotex.one:443
+endpoint is set to api.iotex.one:443
+</code></pre></div><h4 id="get-config"><a href="#get-config" aria-hidden="true" class="header-anchor">#</a> Get Config</h4> <p><code>Usage: ioctl config get VARIABLE</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl config get wallet
+/Users/IoTeX/.config/ioctl/default
+</code></pre></div><h4 id="version"><a href="#version" aria-hidden="true" class="header-anchor">#</a> Version</h4> <p><code>Usage: ioctl version</code></p> <div class="language- extra-class"><pre class="language-text"><code>→  ioctl version
+Client:
+packageVersion:&quot;v0.5.0&quot; packageCommitID:&quot;a4308fc82bea22cfaa45addef679a09f41f3a998&quot; gitStatus:&quot;clean&quot; goVersion:&quot;go version go1.11.5 darwin/amd64&quot; buildTime:&quot;2019-04-20-PDT/18:04:37&quot;
+
+Server: api.iotex.one:443
+packageVersion:&quot;v0.5.0&quot; packageCommitID:&quot;a4308fc82bea22cfaa45addef679a09f41f3a998&quot; gitStatus:&quot;clean&quot; goVersion:&quot;go version go1.11.5 linux/amd64&quot; buildTime:&quot;2019-04-21-UTC/01:04:11&quot;
+</code></pre></div><h4 id="create-account-s"><a href="#create-account-s" aria-hidden="true" class="header-anchor">#</a> Create Account(s)</h4> <p><code>Usage: ioctl account create</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account create
+{
+  &quot;accounts&quot;: [
+    {
+      &quot;address&quot;: &quot;io12ly97a3sk94ne06qjz2vv6clv3za7mk2z2sra9&quot;,
+      &quot;privateKey&quot;: &quot;bb59a2a2c21242831906e0c8d188c642fdc1324d27ac4ae0d8cbea373b22147b&quot;,
+      &quot;publicKey&quot;: &quot;040780ba149d24ee5418084ee193a6be8b3b7cf5329d160fc8902270b342c4fed4b646cdd5fdaf52932eecb957297a9bf6dbb24f7faa9287a27df6b5e83781c74b&quot;
+    }
+  ]
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account create -n 3
+{
+  &quot;accounts&quot;: [
+    {
+      &quot;address&quot;: &quot;io1dcx2490vk2sg0f7ujv9d3gu67rpvyk5rjp854s&quot;,
+      &quot;privateKey&quot;: &quot;a40ffd19150b4f3cbb1ca779862fc63b15d432c0be9bba81c56856d00e370b91&quot;,
+      &quot;publicKey&quot;: &quot;04483333bf900b59a412c26a8cf287e122be5d2882d66263ce330a2c84e426fcf48dca4e189dbef15dc3511b049b7708c1e3a49e4904a6286ffcc6019bb27a4ca9&quot;
+    },
+    {
+      &quot;address&quot;: &quot;io19sypnkmj6agqqgusht07m35lvlhz4ruehetagk&quot;,
+      &quot;privateKey&quot;: &quot;fd49783f8687379e3eb6e5778977044cc7e464dd16df8444b8643d3d636f7ebc&quot;,
+      &quot;publicKey&quot;: &quot;04bcae59b817ec2924adef52088e9295bb040d1a34fe49e64b41ca56e2cbb3be115256975d2c1472b0a3b47bea720810de092ef4d209924ce09fa896b29588a90d&quot;
+    },
+    {
+      &quot;address&quot;: &quot;io1ehlhw6kedp5x8y04ddr7fl0cs68ns32hdxuvdl&quot;,
+      &quot;privateKey&quot;: &quot;2c1bdc74c7ff03f08f2e2d3b65af9a54dc5addc42613670bd4bb1f0440cd9468&quot;,
+      &quot;publicKey&quot;: &quot;04cd1ff13e20cbe83bc8759ce21404edc2a9b78c57f8d2ffc648f2213dfee98b61d9ebaffe03f32e7a13fbe319b1958c99ed701c3fa1046790f6af12f32262309b&quot;
+    }
+  ]
+}
+</code></pre></div><h4 id="create-an-account-into-wallet"><a href="#create-an-account-into-wallet" aria-hidden="true" class="header-anchor">#</a> Create An Account Into Wallet</h4> <p><code>Usage: ioctl account createadd ALIAS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account createadd IOsenser
+#IOsenser: Set password
+#IOsenser: Enter password again
+New account &quot;IOsenser&quot; is created.
+Please Keep your password, or your will lose your private key.
+</code></pre></div><h4 id="import-an-account-with-private-key"><a href="#import-an-account-with-private-key" aria-hidden="true" class="header-anchor">#</a> Import An Account With Private Key</h4> <p><code>Usage: ioctl account import ALIAS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account import whale
+#whale: Enter your private key, which will not be exposed on the screen.
+#whale: Set password
+#whale: Enter password again
+New account #whale is created. Keep your password, or your will lose your private key.
+</code></pre></div><h4 id="export-private-key-from-an-account"><a href="#export-private-key-from-an-account" aria-hidden="true" class="header-anchor">#</a> Export Private Key From An Account</h4> <p><code>Usage: ioctl account export (ALIAS|ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account export whale
+Enter password #whale:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+</code></pre></div><h4 id="delete-an-account"><a href="#delete-an-account" aria-hidden="true" class="header-anchor">#</a> Delete An Account</h4> <p><code>Usage: ioctl account delete (ALIAS|ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account delete whale
+** This is an irreversible action!
+Once an account is deleted, all the assets under this account may be lost!
+Type 'YES' to continue, quit for anything else.
+yes
+Enter password #io1t54nfdnpldaxkpm35f2gzh3rx6cakypmp5xfz5:
+Account #io1t54nfdnpldaxkpm35f2gzh3rx6cakypmp5xfz5 has been deleted.
+</code></pre></div><h4 id="list-accounts"><a href="#list-accounts" aria-hidden="true" class="header-anchor">#</a> List Accounts</h4> <p><code>Usage: ioctl account list</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account list
+io1r2r0um9dw35922tptkuphseq43hq2knk3fjrlt - IOsenser
+io17laykjt9qgafuxj58fuspuxzlv6y4qgxf82vnm - frank
+io1l3wc0smczyay8xq747e2hw63mzg3ctp6uf8wsg
+io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd - 007
+</code></pre></div><h4 id="query-balance"><a href="#query-balance" aria-hidden="true" class="header-anchor">#</a> Query Balance</h4> <p><code>Usage: ioctl account balance (ALIAS|ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account balance IOsenser
+io1r2r0um9dw35922tptkuphseq43hq2knk3fjrlt: 0.721 IOTX
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account balance io1l3wc0smczyay8xq747e2hw63mzg3ctp6uf8wsg
+io1l3wc0smczyay8xq747e2hw63mzg3ctp6uf8wsg: 4689 IOTX
+</code></pre></div><h4 id="query-nonce"><a href="#query-nonce" aria-hidden="true" class="header-anchor">#</a> Query Nonce</h4> <p><code>Usage: ioctl account nonce (ALIAS|ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account nonce IOsenser
+io1r2r0um9dw35922tptkuphseq43hq2knk3fjrlt:
+Nonce: 0, Pending Nonce: 1
+</code></pre></div><h4 id="translate-address"><a href="#translate-address" aria-hidden="true" class="header-anchor">#</a> Translate Address</h4> <p><code>Usage: ioctl account ethaddr (ALIAS|IOTEX_ADDRESS|ETH_ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account ethaddr io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd
+io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd - 0xAA260324ad0DA6FA2231f0FfEC916A99bb00dd34
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account ethaddr 0xAA260324ad0DA6FA2231f0FfEC916A99bb00dd34
+io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd - 0xAA260324ad0DA6FA2231f0FfEC916A99bb00dd34
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account ethaddr 007
+io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd - 0xAA260324ad0DA6FA2231f0FfEC916A99bb00dd34
+</code></pre></div><h4 id="update-password-of-an-account"><a href="#update-password-of-an-account" aria-hidden="true" class="header-anchor">#</a> Update Password Of An Account</h4> <p><code>Usage: ioctl account update (ALIAS|ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl account update IOsenser
+#IOsenser: Enter current password
+#IOsenser: Enter new password
+#IOsenser: Enter new password again
+Account #IOsenser has been updated.
+</code></pre></div><h4 id="set-alias"><a href="#set-alias" aria-hidden="true" class="header-anchor">#</a> Set Alias</h4> <p><code>Usage: ioctl alias set ALIAS ADDRESS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl alias set test io1l3wc0smczyay8xq747e2hw63mzg3ctp6uf8wsg
+set
+</code></pre></div><h4 id="remove-alias"><a href="#remove-alias" aria-hidden="true" class="header-anchor">#</a> Remove Alias</h4> <p><code>Usage: ioctl alias remove ALIAS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl alias remove frank
+frank is removed
+</code></pre></div><h4 id="list-alias"><a href="#list-alias" aria-hidden="true" class="header-anchor">#</a> List Alias</h4> <p><code>Usage: ioctl alias list</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl alias list
+io1r2r0um9dw35922tptkuphseq43hq2knk3fjrlt - IOsenser
+io1l3wc0smczyay8xq747e2hw63mzg3ctp6uf8wsg - test
+io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd - whale
+</code></pre></div><h4 id="transfer-tokens"><a href="#transfer-tokens" aria-hidden="true" class="header-anchor">#</a> Transfer Tokens</h4> <p><code>Usage: ioctl action transfer (ALIAS|RECIPIENT_ADDRESS) AMOUNT_IOTX [DATA] -s SIGNER [-l GAS_LIMIT] [-p GAS_PRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl action transfer IOsenser 7 pad#3212 -s whale
+Enter password #whale:
+
+senderAddress: io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd (whale)
+transfer: &lt;
+  recipient: io1r2r0um9dw35922tptkuphseq43hq2knk3fjrlt (IOsenser)
+  amount: 7000000000000000000
+  payload: pad#3212
+&gt;
+senderPubKey: 04f591bf3d3e233f6705c8a78823e9ea4a9a73365ca4dd1e60e5567558135778fde8b79dc883b04a98ab68a0fe9e3b7ce984fceca0466c03f93f40d32915bf1d88
+signature: 64f9dc75b3406a009692cde669d3186bc29844ba70520e16fdafc14487d8d6be184c4a43f5f7e1f688d759c985a268d1a4b73b34b9e98d1db61adcb549a37d0101
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+aa56b8958d5030676876363ec054df4ac7044ea2fc09f51a1c238d22c9411c33
+</code></pre></div><h4 id="query-action"><a href="#query-action" aria-hidden="true" class="header-anchor">#</a> Query Action</h4> <p><code>Usage: ioctl action hash ACTION_HASH</code></p> <div class="language- extra-class"><pre class="language-text"><code>→  ioctl action hash 690fb07fbb5ba3b762a7a16edea35ff1c3b02b43a6331aef88c4daa1bc933ad4
+
+version: 1  nonce: 7  gasLimit: 122222  gasPrice: 2000000000000 Rau
+senderAddress: io1znka733xefxjjw2wqddegplwtefun0mfdmz7dw (whale)
+transfer: &lt;
+  recipient: io18jaldgzc8wlyfnzamgas62yu3kg5nw527czg37 (nani)
+  amount: 123000000000000000000 Rau
+  payload:
+&gt;
+senderPubKey: 04d0fade363080b9061844ed6b1009f35595515b31295e37e870106d3201a638856db2c3f870dbbcafc559af54574f3487dbea0d318588608d7aca8e77e4ce5ade
+signature: 2e10f265fdc5944fab11afaebd258292afe8f9076157fbaca6bfdd3ece9047483fb3aa10ce187fe55d2d9c591e5eda430833b744f825a6ae34c9b34461d3940f01
+
+#This action has been written on blockchain
+returnValue:
+status: 1 (Success)
+actHash: 690fb07fbb5ba3b762a7a16edea35ff1c3b02b43a6331aef88c4daa1bc933ad4
+gasConsumed: 10000
+contractAddress:
+logs:0
+</code></pre></div><h4 id="deploy-contract"><a href="#deploy-contract" aria-hidden="true" class="header-anchor">#</a> Deploy Contract</h4> <p><code>Usage: ioctl action deploy -s SIGNER -b BYTE_CODE -l GAS_LIMIT [-p GAS_PRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl action deploy -b 608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b114604e5780636d4ce63c146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a7230582009e6d7025fff5ff3ba4cf7ba6b842526416df976e012a516f37e397607c1f2360029 -l 50000 -p 1 -s whale
+Enter password #whale:
+
+senderAddress: io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd (whale)
+version: 1
+nonce: 3
+gasLimit: 50000
+gasPrice: 1000000000000
+execution: &lt;
+  contract:
+  amount: 0
+  data: 608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b114604e5780636d4ce63c146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a7230582009e6d7025fff5ff3ba4cf7ba6b842526416df976e012a516f37e397607c1f2360029
+&gt;
+senderPubKey: 04f591bf3d3e233f6705c8a78823e9ea4a9a73365ca4dd1e60e5567558135778fde8b79dc883b04a98ab68a0fe9e3b7ce984fceca0466c03f93f40d32915bf1d88
+signature: a0cbb205184c3153217bdd7e1d251a70bf8d9222b7ab9b8015254e5961f21602694477ea5bed2005fe21f47724130af173b7abe2b5f9304b09f188749c88c2f001
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+b49e5860c5b4154fdb6bcb808a60fbf8de2ac7807d99551ec5357d83ad2612e5
+</code></pre></div><h4 id="invoke-contract"><a href="#invoke-contract" aria-hidden="true" class="header-anchor">#</a> Invoke Contract</h4> <p><code>Usage: ioctl action invoke (ALIAS|CONTRACT_ADDRESS) [AMOUNT_IOTX] -s SIGNER -b BYTE_CODE -l GAS_LIMIT [-p GAS_PRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl action invoke io1vqzcl56vlfspyaadyxhqy07jrmalx73vdaklzn 122 -s boss -b 60fe47b10000000000000000000000000000000000000000000000000000000000000001 -l 90000 -p 3
+Enter password #boss:
+
+senderAddress: io1ed52svvdun2qv8sf2m0xnynuxfaulv6jlww7ur
+version: 1
+nonce: 2
+gasLimit: 90000
+gasPrice: 3000000000000
+execution: &lt;
+  contract: io1vqzcl56vlfspyaadyxhqy07jrmalx73vdaklzn
+  amount: 122000000000000000000
+  data: 60fe47b10000000000000000000000000000000000000000000000000000000000000001
+&gt;
+senderPubKey: 04b3fe4456876ca4c904c52dc3203e06651924d6cbd5e9f545ce990ea1289f3b8ddaff3b7e104803187f87b1e375076285e7137052260b14f2f33229a671a39a0c
+signature: bde6509fadfe80b707ef80e24041b4cfe7bf583c7d89a0649027090c191918b217ffae5faf1dd5f2d9e6d05f8721c8ff7a6b3b5cffb64610d3bad71c9c55e47001
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+58fc6465bd3b7e33b1508064b0342dc786247b4e18859be72fea57c993dc4950
+</code></pre></div><h4 id="claim-reward"><a href="#claim-reward" aria-hidden="true" class="header-anchor">#</a> Claim Reward</h4> <p><code>Usage: ioctl action claim AMOUNT_IOTX [DATA] -s SIGNER [-l GAS_LIMIT] [-p GASPRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl action claim 321 happy -s whale
+Enter password #whale:
+
+senderAddress: io14gnqxf9dpkn05g337rl7eyt2nxasphf5m6n0rd (whale)
+version: 1
+nonce: 6
+gasLimit: 15000
+gasPrice: &quot;1000000000000&quot;
+claimFromRewardingFund: &lt;
+  amount: &quot;321000000000000000000&quot;
+  data: &quot;happy&quot;
+&gt;
+senderPubKey: 04f591bf3d3e233f6705c8a78823e9ea4a9a73365ca4dd1e60e5567558135778fde8b79dc883b04a98ab68a0fe9e3b7ce984fceca0466c03f93f40d32915bf1d88
+signature: 6b4022afc93901b7de420f84829e9f3e2f531a83c4c0f3a935df3694dbe09e7f068733a294207e9ee39e0d83b4fc206e9f7059592e648b8d92a0bb1eed489f4000
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+59a73e24a41385005519d1d1e7f164b36b98717f2c5649785b43c2588245502d
+</code></pre></div><h4 id="query-total-token-supply-on-erc20-contract"><a href="#query-total-token-supply-on-erc20-contract" aria-hidden="true" class="header-anchor">#</a> Query Total Token Supply On Erc20 Contract</h4> <p><code>Usage: ioctl xrc20 totalSupply -c ALIAS|CONTRACT_ADDRESS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 totalSupply -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+Raw output: 0000000000000000000000000000000000000000010f73e141e95768f6bfacac
+Output in decimal: 328166124527934490560933036
+</code></pre></div><h4 id="query-account-balance-on-erc20-contract"><a href="#query-account-balance-on-erc20-contract" aria-hidden="true" class="header-anchor">#</a> Query Account Balance On Erc20 Contract</h4> <p><code>Usage: ioctl xrc20 balanceOf ALIAS|ACCOUNT_ADDRESS -c ALIAS|CONTRACT_ADDRESS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 balanceOf io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+Raw output: 000000000000000000000000000000000000000000000000b469471f80170d33
+Output in decimal: 13000000000000199987
+</code></pre></div><h4 id="transfer-token-on-erc20-contract"><a href="#transfer-token-on-erc20-contract" aria-hidden="true" class="header-anchor">#</a> Transfer Token On Erc20 Contract</h4> <p><code>Usage: ioctl xrc20 transfer ALIAS|TARGET_ADDRESS AMOUNT -c ALIAS|CONTRACT_ADDRESS [-l GAS_LIMIT] -s SIGNER [-p GAS_PRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 transfer io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd 4 -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw -s ALIAS -l 50000
+Enter password #ALIAS:
+
+
+version: 1  nonce: 25  gasLimit: 50000  gasPrice: 1000000000000 Rau
+senderAddress: io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q (ALIAS)
+execution: &lt;
+  contract: io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+  data: a9059cbb00000000000000000000000097186a21fa8e7955c0f154f960d588c3aca44f140000000000000000000000000000000000000000000000000000000000000004
+&gt;
+senderPubKey: 0420ec863f4572f6327409883d1a049e5890b7dcb36498271e19b6dcead03d515d968cb5aca91e07ca95a287275744215657802957ce6ac19ebc0c0c8aac37f8f5
+signature: 1b2af5f36ec97605981553b0f02698a1760ebbdc54249eab9f0527bf42626cb923f9b22bc592f47a8176b1842a4b198a028268435b3d9c0da8df45478aa0498b00
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+cadb6a3944cd1941b51e2e4b350295cdd3f669f3be791a8988b7ce5c24e70a22
+</code></pre></div><h4 id="transfer-token-from-another-address-on-erc20-contract"><a href="#transfer-token-from-another-address-on-erc20-contract" aria-hidden="true" class="header-anchor">#</a> Transfer Token From Another Address On Erc20 Contract</h4> <p><code>Usage: ioctl xrc20 transferFrom ALIAS|OWNER_ADDRESS ALIAS|TARGET_ADDRESS AMOUNT -c ALIAS|CONTRACT_ADDRESS [-l GAS_LIMIT] -s SIGNER [-p GAS_PRICE]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 transferFrom io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd 4 -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw -s ALIAS -l 50000
+Enter password #ALIAS:
+
+
+version: 1  nonce: 26  gasLimit: 50000  gasPrice: 1000000000000 Rau
+senderAddress: io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q (ALIAS)
+execution: &lt;
+  contract: io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+  data: 23b872dd00000000000000000000000005733bddeb0d0200f750af07770cd1551450ec8400000000000000000000000097186a21fa8e7955c0f154f960d588c3aca44f140000000000000000000000000000000000000000000000000000000000000004
+&gt;
+senderPubKey: 0420ec863f4572f6327409883d1a049e5890b7dcb36498271e19b6dcead03d515d968cb5aca91e07ca95a287275744215657802957ce6ac19ebc0c0c8aac37f8f5
+signature: f06725ac091df1c580c1f9d27c3e55d99c3d90d6e98bac8a9f7408ebc49fdc9d2abf90815dd1e68451cfeb08bb387db01ddea1ab91b3031582e8e6bd7a6fdde801
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+f3c414021df2058134f34e8c7f77d43fd67305db265f7943b4ebe13ca340aaff
+</code></pre></div><h4 id="allow-spender-withdraw-from-account-with-limitation"><a href="#allow-spender-withdraw-from-account-with-limitation" aria-hidden="true" class="header-anchor">#</a> Allow Spender Withdraw From Account With Limitation</h4> <p><code>Usage: ioctl approve ALIAS|SPENDER_ADDRESS XRC20_AMOUNT -c ALIAS|CONTRACT_ADDRESS -s SIGNER [-l GAS_LIMIT]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 approve io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd 4 -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw -s ALIAS -l 50000
+Enter password #ALIAS:
+
+
+version: 1  nonce: 27  gasLimit: 50000  gasPrice: 1000000000000 Rau
+senderAddress: io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q (ALIAS)
+execution: &lt;
+  contract: io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+  data: 095ea7b300000000000000000000000097186a21fa8e7955c0f154f960d588c3aca44f140000000000000000000000000000000000000000000000000000000000000004
+&gt;
+senderPubKey: 0420ec863f4572f6327409883d1a049e5890b7dcb36498271e19b6dcead03d515d968cb5aca91e07ca95a287275744215657802957ce6ac19ebc0c0c8aac37f8f5
+signature: bee99dcee1bd2e7526452e41d0759eb50ac1536c72e1834eb6fb02e158ff5d884b3ecdfc192d2473ca018d54e3dd6c3363798a259200948895ab6d84bd6e600800
+
+Please confirm your action.
+Type 'YES' to continue, quit for anything else.
+yes
+
+Action has been sent to blockchain.
+Wait for several seconds and query this action by hash:
+a3cc433341f7d417420478d9702b9dedd376c9b6a4a9e8d590fc10bb14133e24
+</code></pre></div><h4 id="query-remaining-withdraw-amount-for-spender"><a href="#query-remaining-withdraw-amount-for-spender" aria-hidden="true" class="header-anchor">#</a> Query Remaining Withdraw Amount For Spender</h4> <p><code>Usage: ioctl allowance ALIAS|OWNER_ADDRESS ALIAS|SPENDER_ADDRESS -c ALIAS|CONTRACT_ADDRESS</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜   ioctl xrc20 allowance io1q4enhh0tp5pqpa6s4urhwrx32529pmyyzdgu3q io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd -c io1y9ndaezjrdlkw93hquqru7txh9jcsmtmrvt4yw
+Raw output: 0000000000000000000000000000000000000000000000000000000000000004
+Output in decimal: 4
+</code></pre></div><h4 id="query-blockchain-information"><a href="#query-blockchain-information" aria-hidden="true" class="header-anchor">#</a> Query Blockchain Information</h4> <p><code>Usage: ioctl bc info</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl bc info
+height:50268  numActions:50852  tps:0
+epochNum:140  epochStartHeight:50041  gravityChainStartHeight:7485100
+</code></pre></div><h4 id="query-block"><a href="#query-block" aria-hidden="true" class="header-anchor">#</a> Query Block</h4> <p><code>Usage: ioctl bc block [HEIGHT|HASH]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl bc block
+Transactions: 1
+Height: 122
+Total Amount: 0
+Timestamp: 1553238923
+Producer Public Key: io1urumju6laya40h25rx2cdseql9xm2gm8auepac
+Transactions Root: 8a4e41d5a183a4e12784872da4d76c32ac8d1cf11ed1543859e98000dbdf2620
+Receipt Root: e8e28a529d99a70b7dab8dd6d491bdb0c20818defac307780c919a610e552d6a
+Delta State Digest: 82286c69c59aaff815bb888b876eed7228ea51065027dc07ac1c04e5e082ea6b
+Hash: 87f73c3a6e3312075a9aae70660656a9209bb11fb4d5fb1a2f21e020e20d3365
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl bc block 101
+Transactions: 1
+Height: 101
+Total Amount: 0
+Timestamp: 1553238713
+Producer Public Key: io1urumju6laya40h25rx2cdseql9xm2gm8auepac
+Transactions Root: 8a4e41d5a183a4e12784872da4d76c32ac8d1cf11ed1543859e98000dbdf2620
+Receipt Root: e8e28a529d99a70b7dab8dd6d491bdb0c20818defac307780c919a610e552d6a
+Delta State Digest: 999003ad9f4ea85f45a8a3ebafcb8ad03c43852fbe8cce14aaf86bed9aed8895
+Hash: c9cac24ed4a782583526132cc266f3def121e34ad4c4244f8b045fdd2d82d4cc
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl bc block c9cac24ed4a782583526132cc266f3def121e34ad4c4244f8b045fdd2d82d4cc
+Transactions: 1
+Height: 101
+Total Amount: 0
+Timestamp: 1553238713
+Producer Public Key: io1urumju6laya40h25rx2cdseql9xm2gm8auepac
+Transactions Root: 8a4e41d5a183a4e12784872da4d76c32ac8d1cf11ed1543859e98000dbdf2620
+Receipt Root: e8e28a529d99a70b7dab8dd6d491bdb0c20818defac307780c919a610e552d6a
+Delta State Digest: 999003ad9f4ea85f45a8a3ebafcb8ad03c43852fbe8cce14aaf86bed9aed8895
+Hash: c9cac24ed4a782583526132cc266f3def121e34ad4c4244f8b045fdd2d82d4cc
+</code></pre></div><h4 id="query-delegates"><a href="#query-delegates" aria-hidden="true" class="header-anchor">#</a> Query Delegates</h4> <p><code>Usage: ioctl node delegate [-e epoch-num|-n]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl node delegate
+Epoch: 140,  Start block height: 50041,  Total blocks in epoch: 238
+
+Address                                     Rank   Alias   Status   Blocks   Votes
+io1kr8c6krd7dhxaaqwdkr6erqgu4z0scug3drgja      1           active   10       55001936.845735597412152533
+io108h7sa5sap44e244hz649zyk5y4rqzsvnpzxh5      2                             48735653.694155983836182304
+io1f0rh94m3ctkwep3rlsswwq5vxwlntx4s574l3q      3                             46160987.404981007320038095
+io14u5d66rt465ykm7t2847qllj0reml27q30kr75      4                             45709929.504998607776485547
+io1wl83n3up9w8nedf30lnyxzple0gu5pme0dyrds      5           active   10       38555248.666748708397999935
+io1qqaswtu7rcevahucpfxc0zxx088pylwtxnkrrl      6                             32708257.835646444877501838
+io1nf0rvzgq3tqym6n3trttsrt7d4gqqsmqfzy0da      7                             29712098.816122003636349154
+...
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl node delegate -e 96
+Epoch: 96,  Start block height: 34201,  Total blocks in epoch: 360
+
+Address                                     Rank   Alias   Status   Blocks   Votes
+io1kr8c6krd7dhxaaqwdkr6erqgu4z0scug3drgja      1           active   15       54541792.307642085450786008
+io108h7sa5sap44e244hz649zyk5y4rqzsvnpzxh5      2           active   15       48737756.399894630566687188
+io1f0rh94m3ctkwep3rlsswwq5vxwlntx4s574l3q      3           active   15       46190928.658730546519935761
+io14u5d66rt465ykm7t2847qllj0reml27q30kr75      4                             46085297.487903898159647528
+io1wl83n3up9w8nedf30lnyxzple0gu5pme0dyrds      5           active   15       38572640.296620127370097465
+io1qqaswtu7rcevahucpfxc0zxx088pylwtxnkrrl      6           active   16       32953849.701042695805874862
+io1nf0rvzgq3tqym6n3trttsrt7d4gqqsmqfzy0da      7           active   15       29482829.876487336517790368
+...
+</code></pre></div><h4 id="query-reward"><a href="#query-reward" aria-hidden="true" class="header-anchor">#</a> Query Reward</h4> <p><code>Usage: ioctl node reward (ALIAS|DELEGATE_ADDRESS)</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl node reward whale
+io1t54nfdnpldaxkpm35f2gzh3rx6cakypmp5xfz5: 45819 IOTX
+</code></pre></div><h4 id="update-ioctl"><a href="#update-ioctl" aria-hidden="true" class="header-anchor">#</a> Update ioctl</h4> <p><code>Usage: ioctl update [-t version-type]</code></p> <div class="language- extra-class"><pre class="language-text"><code>➜  ioctl update
+Downloading the latest stable version ...
+Password:
+ioctl is up-to-date now.
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>➜  ioctl update -t unstable
+Downloading the latest unstable version ...
+Password:
+ioctl is up-to-date now.
+</code></pre></div><h2 id="bookkeeping"><a href="#bookkeeping" aria-hidden="true" class="header-anchor">#</a> Bookkeeping</h2> <p>Bookkeeping is a GraphQL web interface for reward distributions, which collects voting status and calculates corresponding voters' reward for a given delegate within a certain epoch range.</p> <h3 id="get-voters-rewards-given-a-delegate-name"><a href="#get-voters-rewards-given-a-delegate-name" aria-hidden="true" class="header-anchor">#</a> Get Voters' Rewards Given A Delegate Name</h3> <p>Usage: Please refer to <a href="https://github.com/iotexproject/iotex-docs#bookkeeping" target="_blank" rel="noopener noreferrer">Analytics Documentations<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h3 id="send-out-voters-rewards"><a href="#send-out-voters-rewards" aria-hidden="true" class="header-anchor">#</a> Send Out Voters' Rewards</h3> <p>The generated bytecode can be used by <code>ioctl</code> to actually send out the voters' rewards, i.e.,</p> <div class="language- extra-class"><pre class="language-text"><code>ioctl action invoke io1sesxdghz93f4sadhu6a7242m22gphmc2aucz4g &lt;total-amount&gt; -l &lt;gas-limit&gt; -p &lt;gas-price&gt; -s &lt;signer&gt; -b &lt;bytecode&gt;`
+</code></pre></div><p>Note that <code>io1sesxdghz93f4sadhu6a7242m22gphmc2aucz4g</code> is the pre-deployed contract for sending IOTX coins to multiple addresses.</p> <h2 id="action-injector"><a href="#action-injector" aria-hidden="true" class="header-anchor">#</a> Action Injector</h2> <p>Actioninjector is a simulation tool to simulate action traffic by injecting random actions to gateway node.</p> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+   injector random [flags]
+
+Available Flags:
+  --addr string       target ip:port for grpc connection (default &quot;127.0.0.1:14004&quot;)
+  --aps int        actions to be injected per second (default 30)
+  --contract string   smart contract address (default &quot;io1pmjhyksxmz2xpxn2qmz4gx9qq2kn2gdr8un4xq&quot;)
+  --duration duration   duration when the injection will run (default 60h0m0s)
+  --execution-amount int execution amount (default 50)
+  --execution-data string execution data (default &quot;2885ad2c&quot;)
+  --execution-gas-limit uint      execution gas limit (default 20000)
+  --execution-gas-price int       execution gas price (default 1000000000000)
+  --injector-config-path string   path of config file of genesis transfer addresses (default &quot;./tools/actioninjector.v2/gentsfaddrs.yaml&quot;)
+  --reset-interval duration       time interval to reset nonce counter (default 10s)
+  --retry-interval duration       sleep interval between two consecutive rpc retries (default 1s)
+  --retry-num uint                maximum number of rpc retries (default 5)
+  --transfer-gas-limit uint       transfer gas limit (default 20000)
+  --transfer-gas-price int        transfer gas price (default 1000000000000)
+  --transfer-payload string       transfer payload
+  --workers uint                  number of workers (default 10)
+  -h, --help                      help for random
+</code></pre></div><h3 id="install-release-build-2"><a href="#install-release-build-2" aria-hidden="true" class="header-anchor">#</a> Install Release Build</h3> <div class="language- extra-class"><pre class="language-text"><code>curl --silent https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-injector.sh | sh
+</code></pre></div><h3 id="install-latest-unstable-build-2"><a href="#install-latest-unstable-build-2" aria-hidden="true" class="header-anchor">#</a> Install Latest/Unstable Build</h3> <div class="language- extra-class"><pre class="language-text"><code>curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-injector.sh | sh -s &quot;unstable&quot;
+</code></pre></div><h2 id="explorer"><a href="#explorer" aria-hidden="true" class="header-anchor">#</a> Explorer</h2> <ul><li><a href="https://github.com/iotexproject/iotex-explorer" target="_blank" rel="noopener noreferrer">Github Repository<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>Demo Sites:
+<ul><li><a href="https://iotexscan.io" target="_blank" rel="noopener noreferrer">Mainnnet<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://testnet.iotexscan.io" target="_blank" rel="noopener noreferrer">Testnet<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul> <h2 id="api"><a href="#api" aria-hidden="true" class="header-anchor">#</a> API</h2> <h3 id="getaccount"><a href="#getaccount" aria-hidden="true" class="header-anchor">#</a> GetAccount</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Account Details
+Request:
+  Address: Account Encoded Address
+Response:
+  AccountMeta: Account Metadata
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;address&quot;: &quot;io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd&quot;}' 127.0.0.1:14014 iotexapi.APIService.GetAccount
+
+Resolved method descriptor:
+rpc GetAccount ( .iotexapi.GetAccountRequest ) returns ( .iotexapi.GetAccountResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;accountMeta&quot;: {
+    &quot;address&quot;: &quot;io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd&quot;,
+    &quot;balance&quot;: &quot;100000000000000000000000000&quot;,
+    &quot;pendingNonce&quot;: 1
+  }
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getactions"><a href="#getactions" aria-hidden="true" class="header-anchor">#</a> GetActions</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Actions By Index
+Request:
+  ByIndex: GetActionsByIndexRequest
+    -Start: Start Index of Actions
+    -Count: Number of Actions
+Response:
+  ActionInfo: List of Action Info
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byIndex&quot;: {&quot;start&quot;: 0, &quot;count&quot;: 2}}' 127.0.0.1:14014 iotexapi.APIService.GetActions
+
+Resolved method descriptor:
+rpc GetActions ( .iotexapi.GetActionsRequest ) returns ( .iotexapi.GetActionsResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;actionInfo&quot;: [
+    {
+      &quot;action&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;gasPrice&quot;: &quot;0&quot;,
+          &quot;grantReward&quot;: {
+            &quot;height&quot;: 1
+          }
+        },
+        &quot;senderPubKey&quot;: &quot;BGP1RCD6FmPHrgmDfKRMgCnTUXT0qp3Vc2lgtLgoYcR3n4bJmJFHv+WZNJqdcnJVH0jTp1rgN2675CIsNXmze7E=&quot;,
+        &quot;signature&quot;: &quot;5LqZitihGMQRLnW++DQ0d7/O3zGbjyKlXGm/i9f3/nx2Z3HHwHRgOCqNAIXDAePZmWlb8ktmn2cyET8WXhowVAE=&quot;
+      },
+      &quot;actHash&quot;: &quot;c6f41c716b5c328fc821bd388cb73717785af91abe91c593d821332a8192ff63&quot;,
+      &quot;blkHash&quot;: &quot;9631129b49d5894c738146a735f24982a59ba92bc03fbbf9b194bd51f2639cd2&quot;,
+      &quot;timestamp&quot;: &quot;2019-04-16T23:37:38.925432Z&quot;
+    },
+    {
+      &quot;action&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;gasPrice&quot;: &quot;0&quot;,
+          &quot;grantReward&quot;: {
+            &quot;height&quot;: 2
+          }
+        },
+        &quot;senderPubKey&quot;: &quot;BGP1RCD6FmPHrgmDfKRMgCnTUXT0qp3Vc2lgtLgoYcR3n4bJmJFHv+WZNJqdcnJVH0jTp1rgN2675CIsNXmze7E=&quot;,
+        &quot;signature&quot;: &quot;IJRc4zS1ZZy1HsKS05TRunN2zeeHNj3dlsQu5Vd8/ywGFulMXlwGzQgDfF3sVoLVFajx7IogzxVYSGdcSI6GFgE=&quot;
+      },
+      &quot;actHash&quot;: &quot;44807c4a778adb0ee063225e77d1a0c1f65b1acfb00c67f462d7cd6e1f50a22e&quot;,
+      &quot;blkHash&quot;: &quot;3ecddc0908f6762d8d6978594f5d75529eaac2ca6618524047b5c0b88c4b3124&quot;,
+      &quot;timestamp&quot;: &quot;2019-04-16T23:37:48.925676Z&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getactions-2"><a href="#getactions-2" aria-hidden="true" class="header-anchor">#</a> GetActions</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Action By Action Hash
+Request:
+  ByHash: GetActionByHashRequest
+    -ActionHash: Hash of Action
+    -CheckPending: Wether To Check Pending Actions in Action Pool
+Response:
+  ActionInfo: Action Info
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byHash&quot;: {&quot;actionHash&quot;: &quot;c6f41c716b5c328fc821bd388cb73717785af91abe91c593d821332a8192ff63&quot;, &quot;checkPending&quot;: false}}' 127.0.0.1:14014 iotexapi.APIService.GetActions
+
+Resolved method descriptor:
+rpc GetActions ( .iotexapi.GetActionsRequest ) returns ( .iotexapi.GetActionsResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;actionInfo&quot;: [
+    {
+      &quot;action&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;gasPrice&quot;: &quot;0&quot;,
+          &quot;grantReward&quot;: {
+            &quot;height&quot;: 1
+          }
+        },
+        &quot;senderPubKey&quot;: &quot;BGP1RCD6FmPHrgmDfKRMgCnTUXT0qp3Vc2lgtLgoYcR3n4bJmJFHv+WZNJqdcnJVH0jTp1rgN2675CIsNXmze7E=&quot;,
+        &quot;signature&quot;: &quot;5LqZitihGMQRLnW++DQ0d7/O3zGbjyKlXGm/i9f3/nx2Z3HHwHRgOCqNAIXDAePZmWlb8ktmn2cyET8WXhowVAE=&quot;
+      },
+      &quot;actHash&quot;: &quot;c6f41c716b5c328fc821bd388cb73717785af91abe91c593d821332a8192ff63&quot;,
+      &quot;blkHash&quot;: &quot;9631129b49d5894c738146a735f24982a59ba92bc03fbbf9b194bd51f2639cd2&quot;,
+      &quot;timestamp&quot;: &quot;2019-04-16T23:37:38.925432Z&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getactions-3"><a href="#getactions-3" aria-hidden="true" class="header-anchor">#</a> GetActions</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Actions By Address
+Request:
+  ByAddr: GetActionsByAddressRequest
+    -Address: Encoded Address
+    -Start: Start Index of Actions
+    -Count: Number of Actions
+Resposne:
+  ActionInfo: List of Action Info
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byAddr&quot;: {&quot;address&quot;: &quot;io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd&quot;, &quot;start&quot;: 0, &quot;count&quot;: 1}}' 127.0.0.1:14014 iotexapi.APIService.GetActions
+
+Resolved method descriptor:
+rpc GetActions ( .iotexapi.GetActionsRequest ) returns ( .iotexapi.GetActionsResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;actionInfo&quot;: [
+    {
+      &quot;action&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;nonce&quot;: 1,
+          &quot;gasLimit&quot;: 10000,
+          &quot;gasPrice&quot;: &quot;10000000000000&quot;,
+          &quot;transfer&quot;: {
+            &quot;amount&quot;: &quot;1000000000000000000&quot;,
+            &quot;recipient&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;
+          }
+        },
+        &quot;senderPubKey&quot;: &quot;BOk7WxyPumkmNlKkg61VMY5O7VtRIjFMt/2wd9jHKVCXzsku5QsRCNx0lalyDlkh5W0wSON6vmpnFtfJuRPp8uY=&quot;,
+        &quot;signature&quot;: &quot;9mrqFBggiRocZhkRVUswxs83NaEFNdEYYczI8049vlovHEP4YMQz+3Isznc3CrYaJxAbc2PTIz7y2meerJ8bHAA=&quot;
+      },
+      &quot;actHash&quot;: &quot;060a93a4784469f9e587da0c90ed20df58b0effb50d6b8ddcd9a4c65ad55fcbd&quot;,
+      &quot;blkHash&quot;: &quot;6344115bcd43b7315ffdf5338d0f97b26caed7734efea034a27208f64670f5e9&quot;,
+      &quot;timestamp&quot;: &quot;2019-04-17T00:10:30.468419Z&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getactions-4"><a href="#getactions-4" aria-hidden="true" class="header-anchor">#</a> GetActions</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Unconfirmed Actions By Address
+Request:
+  UnconfirmedByAddr: GetUnconfirmedActionsByAddressRequest
+    -Address: Encoded Address
+    -Start: Start Index of Unconfirmed Actions
+    -Count: Number of Unconfirmed Actions
+Resposne:
+  ActionInfo: List of Action Info
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;unconfirmedByAddr&quot;: {&quot;address&quot;: &quot;io1juvx5g063eu4ts832nukp4vgcwk2gnc5cu9ayd&quot;, &quot;start&quot;: 0, &quot;count&quot;: 1}}' 127.0.0.1:14014 iotexapi.APIService.GetActions
+
+Resolved method descriptor:
+rpc GetActions ( .iotexapi.GetActionsRequest ) returns ( .iotexapi.GetActionsResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getactions-5"><a href="#getactions-5" aria-hidden="true" class="header-anchor">#</a> GetActions</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Actions By Block
+Request:
+  ByBlk: GetActionsByBlockRequest
+    -BlkHash: Block Hash
+    -Start: Start Index of Actions
+    -Count: Number of Actions
+Resposne:
+  ActionInfo: List of ActionInfo
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byBlk&quot;: {&quot;blkHash&quot;: &quot;6344115bcd43b7315ffdf5338d0f97b26caed7734efea034a27208f64670f5e9&quot;, &quot;start&quot;: 0, &quot;count&quot;: 1}}' 127.0.0.1:14014 iotexapi.APIService.GetActions
+
+Resolved method descriptor:
+rpc GetActions ( .iotexapi.GetActionsRequest ) returns ( .iotexapi.GetActionsResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;actionInfo&quot;: [
+    {
+      &quot;action&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;nonce&quot;: 1,
+          &quot;gasLimit&quot;: 10000,
+          &quot;gasPrice&quot;: &quot;10000000000000&quot;,
+          &quot;transfer&quot;: {
+            &quot;amount&quot;: &quot;1000000000000000000&quot;,
+            &quot;recipient&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;
+          }
+        },
+        &quot;senderPubKey&quot;: &quot;BOk7WxyPumkmNlKkg61VMY5O7VtRIjFMt/2wd9jHKVCXzsku5QsRCNx0lalyDlkh5W0wSON6vmpnFtfJuRPp8uY=&quot;,
+        &quot;signature&quot;: &quot;9mrqFBggiRocZhkRVUswxs83NaEFNdEYYczI8049vlovHEP4YMQz+3Isznc3CrYaJxAbc2PTIz7y2meerJ8bHAA=&quot;
+      },
+      &quot;actHash&quot;: &quot;060a93a4784469f9e587da0c90ed20df58b0effb50d6b8ddcd9a4c65ad55fcbd&quot;,
+      &quot;blkHash&quot;: &quot;6344115bcd43b7315ffdf5338d0f97b26caed7734efea034a27208f64670f5e9&quot;,
+      &quot;timestamp&quot;: &quot;2019-04-17T00:10:30.468419Z&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getblockmetas"><a href="#getblockmetas" aria-hidden="true" class="header-anchor">#</a> GetBlockMetas</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Block Metadata By Index
+Request:
+  ByIndex: GetBlockMetasByIndexRequest
+    -Start: Start Block Height
+    -Count: Number of Blocks
+Response:
+  BlkMetas: List of Block Metadata
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byIndex&quot;: {&quot;start&quot;: 1, &quot;count&quot;: 2}}' 127.0.0.1:14014 iotexapi.APIService.GetBlockMetas
+
+Resolved method descriptor:
+rpc GetBlockMetas ( .iotexapi.GetBlockMetasRequest ) returns ( .iotexapi.GetBlockMetasResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;blkMetas&quot;: [
+    {
+      &quot;hash&quot;: &quot;b7754977cae0f2a45a4ae2b7f0dfc20487e5acfa93594e5eaa1e93f5ec88800f&quot;,
+      &quot;height&quot;: 1,
+      &quot;timestamp&quot;: &quot;2019-04-17T00:08:50.466089Z&quot;,
+      &quot;numActions&quot;: 1,
+      &quot;producerAddress&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;,
+      &quot;transferAmount&quot;: &quot;0&quot;,
+      &quot;txRoot&quot;: &quot;285ff4de28a16dafc49d8c46d24fa99433ac08f24be8962c7a01ade65068a34a&quot;,
+      &quot;receiptRoot&quot;: &quot;60d78681f8e531307e9ef1916f8ff8d387d922e47d0459e14d575f40ac042195&quot;,
+      &quot;deltaStateDigest&quot;: &quot;206c92297a78c59ff6fe3a6351e755fda8ae9bb40b25084e0588b0af43445ca7&quot;
+    },
+    {
+      &quot;hash&quot;: &quot;47406baaee6af2775ef61c46373b6d0202b228f11e1a7a2f986f7d617f64f593&quot;,
+      &quot;height&quot;: 2,
+      &quot;timestamp&quot;: &quot;2019-04-17T00:09:00.465902Z&quot;,
+      &quot;numActions&quot;: 1,
+      &quot;producerAddress&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;,
+      &quot;transferAmount&quot;: &quot;0&quot;,
+      &quot;txRoot&quot;: &quot;d63be4dc98821a28410f694a4fd71179e79db638496a9510c67e5b1a0fc0dac4&quot;,
+      &quot;receiptRoot&quot;: &quot;89cd1950dc9b51f8cf7078ffb38046d31e421c3add9c06abdd3cbcc99e5bf265&quot;,
+      &quot;deltaStateDigest&quot;: &quot;8a7d0cee0eb6b6010088e0b4a2996668a29eb595ea83533b9e33fdecc15bf758&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getblockmetas-2"><a href="#getblockmetas-2" aria-hidden="true" class="header-anchor">#</a> GetBlockMetas</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Block Metadata By Block Hash
+Request:
+  ByHash: GetBlockMetaByHashRequest
+    -BlkHash: Block Hash
+Response:
+  BlkMetas: Block Metadata
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;byHash&quot;: {&quot;blkHash&quot;: &quot;b7754977cae0f2a45a4ae2b7f0dfc20487e5acfa93594e5eaa1e93f5ec88800f&quot;}}' 127.0.0.1:14014 iotexapi.APIService.GetBlockMetas
+
+Resolved method descriptor:
+rpc GetBlockMetas ( .iotexapi.GetBlockMetasRequest ) returns ( .iotexapi.GetBlockMetasResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;blkMetas&quot;: [
+    {
+      &quot;hash&quot;: &quot;b7754977cae0f2a45a4ae2b7f0dfc20487e5acfa93594e5eaa1e93f5ec88800f&quot;,
+      &quot;height&quot;: 1,
+      &quot;timestamp&quot;: &quot;2019-04-17T00:08:50.466089Z&quot;,
+      &quot;numActions&quot;: 1,
+      &quot;producerAddress&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;,
+      &quot;transferAmount&quot;: &quot;0&quot;,
+      &quot;txRoot&quot;: &quot;285ff4de28a16dafc49d8c46d24fa99433ac08f24be8962c7a01ade65068a34a&quot;,
+      &quot;receiptRoot&quot;: &quot;60d78681f8e531307e9ef1916f8ff8d387d922e47d0459e14d575f40ac042195&quot;,
+      &quot;deltaStateDigest&quot;: &quot;206c92297a78c59ff6fe3a6351e755fda8ae9bb40b25084e0588b0af43445ca7&quot;
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getchainmeta"><a href="#getchainmeta" aria-hidden="true" class="header-anchor">#</a> GetChainMeta</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Blockchain Metadata
+Request:
+  N/A
+Response:
+  ChainMeta: Blockchain Metadata
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext 127.0.0.1:14014 iotexapi.APIService.GetChainMeta
+
+Resolved method descriptor:
+rpc GetChainMeta ( .iotexapi.GetChainMetaRequest ) returns ( .iotexapi.GetChainMetaResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;chainMeta&quot;: {
+    &quot;height&quot;: 88,
+    &quot;numActions&quot;: 90,
+    &quot;epoch&quot;: {
+      &quot;num&quot;: 2,
+      &quot;height&quot;: 49,
+      &quot;gravityChainStartHeight&quot;: 49
+    }
+  }
+}
+
+Response trailers received:
+(empty)
+Sent 0 requests and received 1 response
+</code></pre></div><h3 id="getservermeta"><a href="#getservermeta" aria-hidden="true" class="header-anchor">#</a> GetServerMeta</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Server Metadata
+Request:
+  N/A
+Reponse:
+  ServerMeta: Server Metadata
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext 127.0.0.1:14014 iotexapi.APIService.GetServerMeta
+
+Resolved method descriptor:
+rpc GetServerMeta ( .iotexapi.GetServerMetaRequest ) returns ( .iotexapi.GetServerMetaResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;serverMeta&quot;: {
+    &quot;packageVersion&quot;: &quot;v0.7.0-35-g3baac429&quot;,
+    &quot;packageCommitID&quot;: &quot;3baac429420ae74a2d1e97a866f745ca796fc192&quot;,
+    &quot;gitStatus&quot;: &quot;clean&quot;,
+    &quot;goVersion&quot;: &quot;go version go1.12.5 darwin/amd64&quot;,
+    &quot;buildTime&quot;: &quot;2019-06-17-PDT/16:32:37&quot;
+  }
+}
+
+Response trailers received:
+(empty)
+Sent 0 requests and received 1 response
+</code></pre></div><h3 id="sendaction"><a href="#sendaction" aria-hidden="true" class="header-anchor">#</a> SendAction</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Send Action
+Request:
+  Action: Action
+Response:
+  ActionHash: Hash of Action
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;action&quot;: {&quot;core&quot;: {&quot;version&quot;: 1, &quot;nonce&quot;: 2, &quot;gasLimit&quot;: 10000, &quot;gasPrice&quot;: &quot;10&quot;, &quot;transfer&quot;: {&quot;amount&quot;: &quot;100&quot;, &quot;recipient&quot;: &quot;io1sxm6zl56um2c3ntq5fwqjar4za5ka560x53muy&quot;}}, &quot;senderPubKey&quot;: &quot;BOk7WxyPumkmNlKkg61VMY5O7VtRIjFMt/2wd9jHKVCXzsku5QsRCNx0lalyDlkh5W0wSON6vmpnFtfJuRPp8uY=&quot;, &quot;signature&quot;: &quot;9mrqFBggiRocZhkRVUswxs83NaEFNdEYYczI8049vlovHEP4YMQz+3Isznc3CrYaJxAbc2PTIz7y2meerJ8bHAA=&quot;}}' 127.0.0.1:14014 iotexapi.APIService.SendAction
+
+Resolved method descriptor:
+rpc SendAction ( .iotexapi.SendActionRequest ) returns ( .iotexapi.SendActionResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;actionHash&quot;: &quot;8890dca441898a3d942de05f7514f32c96afbcde1493ddd76aed1aaecb60af06&quot;
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getreceiptbyaction"><a href="#getreceiptbyaction" aria-hidden="true" class="header-anchor">#</a> GetReceiptByAction</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Action Receipt By Action Hash
+Request:
+  ActionHash: Action Hash
+Response:
+  Receipt: Action Receipt
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;actionHash&quot;: &quot;060a93a4784469f9e587da0c90ed20df58b0effb50d6b8ddcd9a4c65ad55fcbd&quot;}' 127.0.0.1:14014 iotexapi.APIService.GetReceiptByAction
+
+Resolved method descriptor:
+rpc GetReceiptByAction ( .iotexapi.GetReceiptByActionRequest ) returns ( .iotexapi.GetReceiptByActionResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;receiptInfo&quot;: {
+    &quot;receipt&quot;: {
+      &quot;status&quot;: 1,
+      &quot;blkHeight&quot;: 106,
+      &quot;actHash&quot;: &quot;BgqTpHhEafnlh9oMkO0g31iw7/tQ1rjdzZpMZa1V/L0=&quot;,
+      &quot;gasConsumed&quot;: 10000,
+      &quot;contractAddress&quot;: &quot;io1enfa3p3aysdueq85vvprzzndjs4fp6z32hf7xs&quot;
+    },
+    &quot;blkHash&quot;: &quot;c331e7610109ab2e799b0341a57f926fe130ed6361af320a59dd8520a838e2e1&quot;
+  }
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="readcontract"><a href="#readcontract" aria-hidden="true" class="header-anchor">#</a> ReadContract</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Read Contract State
+Request:
+  Action: Action (Must Be An Execution)
+Response:
+  Data: Return Value in Execution Receipt
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;action&quot;: {&quot;core&quot;: {&quot;version&quot;: 1, &quot;nonce&quot;: 2, &quot;gasLimit&quot;: 10000, &quot;gasPrice&quot;: &quot;10&quot;, &quot;execution&quot;: {&quot;amount&quot;: &quot;0&quot;, &quot;contract&quot;: &quot;&quot;}}, &quot;senderPubKey&quot;: &quot;BOk7WxyPumkmNlKkg61VMY5O7VtRIjFMt/2wd9jHKVCXzsku5QsRCNx0lalyDlkh5W0wSON6vmpnFtfJuRPp8uY=&quot;, &quot;signature&quot;: &quot;9mrqFBggiRocZhkRVUswxs83NaEFNdEYYczI8049vlovHEP4YMQz+3Isznc3CrYaJxAbc2PTIz7y2meerJ8bHAA=&quot;}}' 127.0.0.1:14014 iotexapi.APIService.ReadContract
+
+Resolved method descriptor:
+rpc ReadContract ( .iotexapi.ReadContractRequest ) returns ( .iotexapi.ReadContractResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;receipt&quot;: {
+    &quot;status&quot;: 1,
+    &quot;blkHeight&quot;: 26,
+    &quot;actHash&quot;: &quot;2bAgDlDdF84K+XNCW95wdjMpmQqVP2b04ghyMXoN6J4=&quot;,
+    &quot;gasConsumed&quot;: 10000,
+    &quot;contractAddress&quot;: &quot;io18vlvlj0v02yye70kpqtzhu4uek3qqz27zm7g42&quot;
+  }
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="readstate"><a href="#readstate" aria-hidden="true" class="header-anchor">#</a> ReadState</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Read State on Blockchain
+Request:
+  ProtocolID: Protocol ID
+  MethodName: Method To Be Invoked To Read State
+  Arguments: List of Method Arguments
+Response:
+  Data: State Result
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;protocolID&quot;: &quot;cmV3YXJkaW5n&quot;, &quot;methodName&quot;: &quot;VW5jbGFpbWVkQmFsYW5jZQ==&quot;, &quot;arguments&quot;: &quot;aW8xanV2eDVnMDYzZXU0dHM4MzJudWtwNHZnY3drMmduYzVjdTlheWQ=&quot;}' 127.0.0.1:14014 iotexapi.APIService.ReadState
+
+Resolved method descriptor:
+rpc ReadState ( .iotexapi.ReadStateRequest ) returns ( .iotexapi.ReadStateResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;data&quot;: &quot;MA==&quot;
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="suggestgasprice"><a href="#suggestgasprice" aria-hidden="true" class="header-anchor">#</a> SuggestGasPrice</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Suggested Gas Price
+Request:
+  N/A
+Response:
+  GasPrice: Gas Price
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext 127.0.0.1:14014 iotexapi.APIService.SuggestGasPrice
+
+Resolved method descriptor:
+rpc SuggestGasPrice ( .iotexapi.SuggestGasPriceRequest ) returns ( .iotexapi.SuggestGasPriceResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;gasPrice&quot;: 1
+}
+
+Response trailers received:
+(empty)
+Sent 0 requests and received 1 response
+</code></pre></div><h3 id="estimategasforaction"><a href="#estimategasforaction" aria-hidden="true" class="header-anchor">#</a> EstimateGasForAction</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Estimated Gas For Action
+Request:
+  Action: Action
+Response:
+  Gas: Gas
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;action&quot;: {&quot;core&quot;: {&quot;version&quot;: 1, &quot;nonce&quot;: 2, &quot;gasLimit&quot;: 10000, &quot;gasPrice&quot;: &quot;10&quot;, &quot;execution&quot;: {&quot;amount&quot;: &quot;0&quot;, &quot;contract&quot;: &quot;&quot;}}, &quot;senderPubKey&quot;: &quot;BOk7WxyPumkmNlKkg61VMY5O7VtRIjFMt/2wd9jHKVCXzsku5QsRCNx0lalyDlkh5W0wSON6vmpnFtfJuRPp8uY=&quot;, &quot;signature&quot;: &quot;9mrqFBggiRocZhkRVUswxs83NaEFNdEYYczI8049vlovHEP4YMQz+3Isznc3CrYaJxAbc2PTIz7y2meerJ8bHAA=&quot;}}' 127.0.0.1:14014 iotexapi.APIService.EstimateGasForAction
+
+Resolved method descriptor:
+rpc EstimateGasForAction ( .iotexapi.EstimateGasForActionRequest ) returns ( .iotexapi.EstimateGasForActionResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;gas&quot;: 10000
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getepochmeta"><a href="#getepochmeta" aria-hidden="true" class="header-anchor">#</a> GetEpochMeta</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get Epoch Metadata Given an Epoch Number
+Request:
+  EpochNumber: Epoch Number
+Response:
+  EpochData: Basic Epoch Information
+  TotalBlocks: Number of Blocks in the Epoch
+  BlockProducersInfo: List of Block Producer Information
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;epochNumber&quot;: 1}' api.iotex.one:80 iotexapi.APIService.GetEpochMeta
+
+Resolved method descriptor:
+rpc GetEpochMeta ( .iotexapi.GetEpochMetaRequest ) returns ( .iotexapi.GetEpochMetaResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+date: Wed, 17 Apr 2019 02:31:41 GMT
+server: envoy
+x-envoy-upstream-service-time: 15
+
+Response contents:
+{
+  &quot;epochData&quot;: {
+    &quot;num&quot;: 1,
+    &quot;height&quot;: 1,
+    &quot;gravityChainStartHeight&quot;: 7502300
+  },
+  &quot;totalBlocks&quot;: 360,
+  &quot;blockProducersInfo&quot;: [
+    {
+      &quot;address&quot;: &quot;io1gh7xfrsnj6p5uqgjpk9xq6jg9na28aewgp7a9v&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1scs89jur7qklzh5vfrmha3c40u8yajjx6kvzg9&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io159fv8mu9d5djk8u2t0flgw4yqmt6fg98uqjka8&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1cup9k8hl8fp40vrj29ex8djc346780dk223end&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1wv5m0xyermvr2n0wjx2cjsqwyk863drdl5qfyn&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1gf08snppu2a2wfd50pjas2j6q2kcxjzqph3pep&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1u5ff879gg2dw9vfpxr2tsmuaz07e2rea6gvl7s&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1ar5l5s268rtgzshltnqv88mua06ucm58dx678y&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1xsx5n94kg2zv64r7tm8vyz9mh86amfak9ka9xx&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1x9kjkr0qv2fa7j4t2as8lrj223xxsqt4tl7xp7&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1fks575kklxafq4fwjccmz5d3pmq5ynxk5h6h0v&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1vtm2zgn830pn6auc2cvnchgwdaefa9gr4z0s86&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io12yxdwewry70gr9fs6fphyfaky9c7gurmzk8f4f&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1c3r4th3zrk4uhv83a9gr4gvn3y6pzaj6mc84ea&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io15fqav3tugm96ge7anckx0k4gukz5m4mqf0jpv3&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io14vmhs9c75r2ptxdaqrtk0dz7skct30pxmt69d9&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1v0q5g2f8z6l3v25krl677chdx7g5pwt9kvqfpc&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1z7mjef7w528nasnsafan0rp6yuvkvq405l6r8j&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1xsdegzr2hdj5sv5ad4nr0yfgpsd98e40u6svem&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1nyjs526mnqcsx4twa7nptkg08eclsw5c2dywp4&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1du4eq4f88n4wyc026l3gamjwetlgsg4jz7j884&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io127ftn4ry6wgxdrw4hcd6gdwqlq70ujk98dvtw5&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 15
+    },
+    {
+      &quot;address&quot;: &quot;io1jafqlvntcxgyp6e0uxctt3tljzc3vyv5hg4ukh&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 16
+    },
+    {
+      &quot;address&quot;: &quot;io15npzu93ug8r3zdeysppnyrcdu2xssz0lcam9l9&quot;,
+      &quot;votes&quot;: &quot;10000000000000000000000000&quot;,
+      &quot;active&quot;: true,
+      &quot;production&quot;: 14
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="getrawblocks"><a href="#getrawblocks" aria-hidden="true" class="header-anchor">#</a> GetRawBlocks</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Get A List of Raw Block Data
+Request:
+  StartHeight: Start Block Height
+  Count: Block Count
+  WithReceipts: Whether to Include Action Receipts in Each Returned Block
+Response:
+  Blocks: A List of Raw Block Data
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext -d '{&quot;startHeight&quot;: 1, &quot;count&quot;: 2, &quot;withReceipts&quot;: true}' 127.0.0.1:14014 iotexapi.APIService.GetRawBlocks
+
+Resolved method descriptor:
+rpc GetRawBlocks ( .iotexapi.GetRawBlocksRequest ) returns ( .iotexapi.GetRawBlocksResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;blocks&quot;: [
+    {
+      &quot;block&quot;: {
+        &quot;header&quot;: {
+          &quot;core&quot;: {
+            &quot;version&quot;: 1,
+            &quot;height&quot;: 1,
+            &quot;timestamp&quot;: &quot;2019-06-17T23:33:04.755448Z&quot;,
+            &quot;prevBlockHash&quot;: &quot;N9XWktUXQo60gwwqV17n5trTKkbUp/Ob6UY841g+AtA=&quot;,
+            &quot;txRoot&quot;: &quot;5Pn9BOMAgzj0LX9o6AD8O/FbDueiA5eS+9MUMzQ6QwY=&quot;,
+            &quot;deltaStateDigest&quot;: &quot;tE9Ywa/2MvNDO7F8scFh9/4ijrGXTClVunKbp5eeU8M=&quot;,
+            &quot;receiptRoot&quot;: &quot;EbGK2TCBJbVMEn04tBRy0PdceJ1O2N3IxnU7Fggjl2o=&quot;
+          },
+          &quot;producerPubkey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+          &quot;signature&quot;: &quot;oZxrQvUteVeq+SMCxg6I+MwJ4IkKWFzDhFi3hIQ9j9IYL69RRWsRc+pxXAjdfRCiLuCXGnkaP+nUXnR3Atm8EwA=&quot;
+        },
+        &quot;body&quot;: {
+          &quot;actions&quot;: [
+            {
+              &quot;core&quot;: {
+                &quot;version&quot;: 1,
+                &quot;gasPrice&quot;: &quot;0&quot;,
+                &quot;grantReward&quot;: {
+                  &quot;height&quot;: 1
+                }
+              },
+              &quot;senderPubKey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+              &quot;signature&quot;: &quot;gE9H+i0EZNTVHhoX7fq4xn6H8FqBrFKK0YyfcH16mrFT0rSvgVDb/ov2hAwgMh5kJVHaD8TG6UX7fayK5lpCXQA=&quot;
+            }
+          ]
+        },
+        &quot;footer&quot;: {
+          &quot;timestamp&quot;: &quot;0001-01-01T00:00:00Z&quot;
+        }
+      },
+      &quot;receipts&quot;: [
+        {
+          &quot;blkHeight&quot;: 1,
+          &quot;actHash&quot;: &quot;5Pn9BOMAgzj0LX9o6AD8O/FbDueiA5eS+9MUMzQ6QwY=&quot;,
+          &quot;contractAddress&quot;: &quot;io154mvzs09vkgn0hw6gg3ayzw5w39jzp47f8py9v&quot;
+        }
+      ]
+    },
+    {
+      &quot;block&quot;: {
+        &quot;header&quot;: {
+          &quot;core&quot;: {
+            &quot;version&quot;: 1,
+            &quot;height&quot;: 2,
+            &quot;timestamp&quot;: &quot;2019-06-17T23:33:14.756354Z&quot;,
+            &quot;prevBlockHash&quot;: &quot;7bI37oyjBvl+TTx5Fw089xCe8AJb7YneCsmqOLiJ88k=&quot;,
+            &quot;txRoot&quot;: &quot;qQZkW9iZ+xsl0SjVJmsIDDpQ9RcWyge/sBcvHOZFgKQ=&quot;,
+            &quot;deltaStateDigest&quot;: &quot;S7dJ9+p/BUNaiRFQLl6+Lc/u5B5s4jlJ5LldIFwof9c=&quot;,
+            &quot;receiptRoot&quot;: &quot;S2ZBa1FtEUSDmBqTbnS4w4RfhHfyyDJofaxL1U36+9I=&quot;
+          },
+          &quot;producerPubkey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+          &quot;signature&quot;: &quot;s/JZHbuZaMKOqWACHsGbezciRBSS7XYU9QuY2w3BgM8pEYWtYXZYWVJiHU3r0Z1Z7PXFMKc1glpONXkLiXwReQA=&quot;
+        },
+        &quot;body&quot;: {
+          &quot;actions&quot;: [
+            {
+              &quot;core&quot;: {
+                &quot;version&quot;: 1,
+                &quot;gasPrice&quot;: &quot;0&quot;,
+                &quot;grantReward&quot;: {
+                  &quot;height&quot;: 2
+                }
+              },
+              &quot;senderPubKey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+              &quot;signature&quot;: &quot;gMlB2v2RwSHnNuilZX89K+EOtCKDfmfouI97GO+DcU82VHm9LE4NG1TVgUQe6z94aOSHrEwyUKtINuv5QOmNIgA=&quot;
+            }
+          ]
+        },
+        &quot;footer&quot;: {
+          &quot;timestamp&quot;: &quot;0001-01-01T00:00:00Z&quot;
+        }
+      },
+      &quot;receipts&quot;: [
+        {
+          &quot;blkHeight&quot;: 2,
+          &quot;actHash&quot;: &quot;qQZkW9iZ+xsl0SjVJmsIDDpQ9RcWyge/sBcvHOZFgKQ=&quot;,
+          &quot;contractAddress&quot;: &quot;io154mvzs09vkgn0hw6gg3ayzw5w39jzp47f8py9v&quot;
+        }
+      ]
+    }
+  ]
+}
+
+Response trailers received:
+(empty)
+Sent 1 request and received 1 response
+</code></pre></div><h3 id="streamblocks"><a href="#streamblocks" aria-hidden="true" class="header-anchor">#</a> StreamBlocks</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Subscribe to Block Creations
+Request:
+  N/A
+Response:
+  Block: Newly Created Block Data
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>➜  ~ grpcurl -v -plaintext 127.0.0.1:14014 iotexapi.APIService.StreamBlocks
+
+Resolved method descriptor:
+rpc StreamBlocks ( .iotexapi.StreamBlocksRequest ) returns ( stream .iotexapi.StreamBlocksResponse );
+
+Request metadata to send:
+(empty)
+
+Response headers received:
+content-type: application/grpc
+
+Response contents:
+{
+  &quot;block&quot;: {
+    &quot;block&quot;: {
+      &quot;header&quot;: {
+        &quot;core&quot;: {
+          &quot;version&quot;: 1,
+          &quot;height&quot;: 365,
+          &quot;timestamp&quot;: &quot;2019-06-18T00:36:41.655617Z&quot;,
+          &quot;prevBlockHash&quot;: &quot;p3qrdtYuIfan08r8ZB4JFdpjaYAWUMGLrsxxn/nGO6g=&quot;,
+          &quot;txRoot&quot;: &quot;F484nSOb8CVSNZiOETu1eEfgbwW9kGjX+zFv/OXaAvI=&quot;,
+          &quot;deltaStateDigest&quot;: &quot;z9zsiQmR7MZh6uEBPMgPGO5snxq1YJW9ESCoZun/fD4=&quot;,
+          &quot;receiptRoot&quot;: &quot;8Xb+12FYKrbN2mM4UiFd3htkyagI8U5xX8mtUJegmgY=&quot;
+        },
+        &quot;producerPubkey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+        &quot;signature&quot;: &quot;7qJKGnbCDJsfSWxuE9NYsFiqwxr6Urgz6NNu6KUZuWhygPDrEpD6uC4qgqplwFXXF7Zhlclwh7UQlaEcL0i5ZAE=&quot;
+      },
+      &quot;body&quot;: {
+        &quot;actions&quot;: [
+          {
+            &quot;core&quot;: {
+              &quot;version&quot;: 1,
+              &quot;gasPrice&quot;: &quot;0&quot;,
+              &quot;grantReward&quot;: {
+                &quot;height&quot;: 365
+              }
+            },
+            &quot;senderPubKey&quot;: &quot;BB5cvAz6DM+BTzw9RADTmMqz0WPDofHDEGQ2kNl20p49+i0O2b5yH6Xc7EeqethWkyI8nw1BrrRleRkqfsHU9m8=&quot;,
+            &quot;signature&quot;: &quot;WWDGUs/EbG1mvTc2MAD06YSZ71bnXK9BBCzTezn2aQBKZCB2PiKbuzQM43dB7AZVmmY0Q7A/JOHqgq/TyZyi1wA=&quot;
+          }
+        ]
+      },
+      &quot;footer&quot;: {
+        &quot;timestamp&quot;: &quot;0001-01-01T00:00:00Z&quot;
+      }
+    },
+    &quot;receipts&quot;: [
+      {
+        &quot;blkHeight&quot;: 365,
+        &quot;actHash&quot;: &quot;F484nSOb8CVSNZiOETu1eEfgbwW9kGjX+zFv/OXaAvI=&quot;,
+        &quot;contractAddress&quot;: &quot;io154mvzs09vkgn0hw6gg3ayzw5w39jzp47f8py9v&quot;
+      }
+    ]
+  }
+}
+</code></pre></div><h2 id="analytics"><a href="#analytics" aria-hidden="true" class="header-anchor">#</a> Analytics</h2> <p>Analytics is a GraphQL web interface for reading the analyzed blockchain data. You can try it <a href="https://analytics.iotexscan.io" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h3 id="delegate"><a href="#delegate" aria-hidden="true" class="header-anchor">#</a> Delegate</h3> <h4 id="bookkeeping-2"><a href="#bookkeeping-2" aria-hidden="true" class="header-anchor">#</a> Bookkeeping</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  Bookkeeping gives delegates an overview of the reward distributions to their voters within a range of epochs
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+  delegateName: delegate name
+  percentage: percentage of reward distribution
+  includeFoundationBonus: whether include foundation bonus as part of the reward distribution
+  Pagination:
+    skip: starting index of displaying reward distribution list
+    first: number of reward distributions to display
+    
+Response:
+  exist: whether the delegate has bookkeeping information within the specified epoch range
+  rewardDistribution: 
+    voterEthAddress: voter’s ERC20 address
+    voterIotexAddress: voter’s IoTeX address
+    amount: amount of reward distribution
+  count:  total number of reward distributions
+</code></pre></div><h4 id="productivity"><a href="#productivity" aria-hidden="true" class="header-anchor">#</a> Productivity</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Productivity gives block productivity of producers within a range of epochs
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+  delegateName: producer name
+
+Response:
+  exist: whether the delegate has productivity information within the specified epoch range
+  production: number of block productions
+  expectedProduction: number of expected block productions
+</code></pre></div><h4 id="reward"><a href="#reward" aria-hidden="true" class="header-anchor">#</a> Reward</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Rewards provides reward detail information for candidates within a range of epochs
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+  delegateName: candidate name
+
+Response:
+  exist: whether the delegate has reward information within the specified epoch range
+  blockReward: amount of block rewards
+  epochReward: amount of epoch rewards
+  foundationBonus: amount of foundation bonus
+</code></pre></div><h4 id="bucketinfo"><a href="#bucketinfo" aria-hidden="true" class="header-anchor">#</a> BucketInfo</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  BucketInfo provides voting bucket detail information for candidates within a range of epochs
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+  delegateName: candidate name
+
+Response:
+  exist: whether the delegate has voting bucket information within the specified epoch range
+  epochNumber: epoch number
+  bucketInfoList:
+    voterEthAddress: voter’s ERC20 address
+    weightedVotes: voter’s weighted votes
+  count: total number of buckets in the given epoch for the given delegate
+</code></pre></div><h4 id="staking"><a href="#staking" aria-hidden="true" class="header-anchor">#</a> Staking</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Staking provides staking information for candidates within a range of epochs
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+  delegateName: candidate name
+
+Response:
+  exist: whether the delegate has staking information within the specified epoch range
+  stakingInfo:
+    epochNumber: epoch number
+    selfStaking: candidate’s self-staking amount
+    totalStaking: total staking amount
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>Sample Request:
+
+query{
+  delegate(startEpoch: 1500, epochCount: 2, delegateName: &quot;blackpool&quot;){
+    bookkeeping(percentage: 90, includeFoundationBonus: true){
+      exist
+      rewardDistribution(pagination: {skip: 0, first: 2}){
+        voterEthAddress
+        amount
+      }
+      count
+    }
+    reward{
+      exist
+      blockReward
+      epochReward
+      foundationBonus
+    }
+    productivity{
+      exist
+      production
+      expectedProduction
+    }
+    bucketInfo{
+      exist
+      bucketInfoList{
+        epochNumber
+        bucketInfo{
+          voterEthAddress
+          weightedVotes
+        }
+        count
+      }
+    }
+    staking{
+      exist
+      stakingInfo{
+        epochNumber
+        selfStaking
+        totalStaking
+      }
+    }
+  }
+}
+
+Sample Response:
+
+{
+  &quot;data&quot;: {
+    &quot;delegate&quot;: {
+      &quot;bookkeeping&quot;: {
+        &quot;exist&quot;: true,
+        &quot;rewardDistribution&quot;: [
+          {
+            &quot;voterEthAddress&quot;: &quot;0x2ed3767cfcbceb42ff5f3642d4df6f851b947073&quot;,
+            &quot;amount&quot;: &quot;249296733398649281&quot;
+          },
+          {
+            &quot;voterEthAddress&quot;: &quot;0x6729cdc9172b00ac69f4ce3f98de2eb4d0686925&quot;,
+            &quot;amount&quot;: &quot;5264917870144216244&quot;
+          }
+        ],
+        &quot;count&quot;: 4
+      },
+      &quot;reward&quot;: {
+        &quot;exist&quot;: true,
+        &quot;blockReward&quot;: &quot;0&quot;,
+        &quot;epochReward&quot;: &quot;329819772195117893866&quot;,
+        &quot;foundationBonus&quot;: &quot;160000000000000000000&quot;
+      },
+      &quot;productivity&quot;: {
+        &quot;exist&quot;: false,
+        &quot;production&quot;: &quot;&quot;,
+        &quot;expectedProduction&quot;: &quot;&quot;
+      },
+      &quot;bucketInfo&quot;: {
+        &quot;exist&quot;: true,
+        &quot;bucketInfoList&quot;: [
+          {
+            &quot;epochNumber&quot;: 1500,
+            &quot;bucketInfo&quot;: [
+              {
+                &quot;voterEthAddress&quot;: &quot;2ed3767cfcbceb42ff5f3642d4df6f851b947073&quot;,
+                &quot;weightedVotes&quot;: &quot;12050042619210072913916&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;6729cdc9172b00ac69f4ce3f98de2eb4d0686925&quot;,
+                &quot;weightedVotes&quot;: &quot;254485824410815439561517&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;d8e70e5029e5353e8d360365d5273ed329cc4918&quot;,
+                &quot;weightedVotes&quot;: &quot;3203226341724952466266885&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;d8e70e5029e5353e8d360365d5273ed329cc4918&quot;,
+                &quot;weightedVotes&quot;: &quot;2838636602552620757933254&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;fe7bcb3676aabe9a6b39cb23f3a5fa41eed7ad1b&quot;,
+                &quot;weightedVotes&quot;: &quot;15000000000000000000000000&quot;
+              }
+            ],
+            &quot;count&quot;: 5
+          },
+          {
+            &quot;epochNumber&quot;: 1501,
+            &quot;bucketInfo&quot;: [
+              {
+                &quot;voterEthAddress&quot;: &quot;2ed3767cfcbceb42ff5f3642d4df6f851b947073&quot;,
+                &quot;weightedVotes&quot;: &quot;12050042619210072913916&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;6729cdc9172b00ac69f4ce3f98de2eb4d0686925&quot;,
+                &quot;weightedVotes&quot;: &quot;254485824410815439561517&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;d8e70e5029e5353e8d360365d5273ed329cc4918&quot;,
+                &quot;weightedVotes&quot;: &quot;3203226341724952466266885&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;d8e70e5029e5353e8d360365d5273ed329cc4918&quot;,
+                &quot;weightedVotes&quot;: &quot;2838636602552620757933254&quot;
+              },
+              {
+                &quot;voterEthAddress&quot;: &quot;fe7bcb3676aabe9a6b39cb23f3a5fa41eed7ad1b&quot;,
+                &quot;weightedVotes&quot;: &quot;15000000000000000000000000&quot;
+              }
+            ],
+            &quot;count&quot;: 5
+          }
+        ]
+      },
+      &quot;staking&quot;: {
+        &quot;exist&quot;: true,
+        &quot;stakingInfo&quot;: [
+          {
+            &quot;epochNumber&quot;: 1500,
+            &quot;selfStaking&quot;: &quot;5039748000000000000000000&quot;,
+            &quot;totalStaking&quot;: &quot;21308398811307598736675572&quot;
+          },
+          {
+            &quot;epochNumber&quot;: 1501,
+            &quot;selfStaking&quot;: &quot;5039748000000000000000000&quot;,
+            &quot;totalStaking&quot;: &quot;21308398811307598736675572&quot;
+          }
+        ]
+      }
+    }
+  }
+}
+</code></pre></div><h3 id="chain"><a href="#chain" aria-hidden="true" class="header-anchor">#</a> Chain</h3> <h4 id="mostrecentepoch"><a href="#mostrecentepoch" aria-hidden="true" class="header-anchor">#</a> MostRecentEpoch</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  MostRecentEpoch gives the latest epoch number
+
+Request:
+  N/A
+  
+Response:
+  mostRecentEpoch: latest epoch number
+</code></pre></div><h4 id="mostrecentblockheight"><a href="#mostrecentblockheight" aria-hidden="true" class="header-anchor">#</a> MostRecentBlockHeight</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  MostRecentBlockHeight gives the latest block height
+
+Request:
+  N/A
+  
+Response:
+  mostRecentBlockHeight: latest block height
+</code></pre></div><h4 id="mostrecenttps"><a href="#mostrecenttps" aria-hidden="true" class="header-anchor">#</a> MostRecentTPS</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  MostRecentTPS gives the latest transactions per second
+
+Request:
+  blockWindow: number of last blocks that are backtracked to compute TPS
+  
+Response:
+  mostRecentTPS: latest transactions per second
+</code></pre></div><h4 id="numberofactions"><a href="#numberofactions" aria-hidden="true" class="header-anchor">#</a> NumberOfActions</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  NumberOfActions gives the number of actions
+
+Request:
+  pagination:
+    startEpoch: starting epoch number
+    epochCount: epoch count 
+  
+Response:
+  exist: whether the starting epoch number is less than the most recent epoch number
+  count: number of actions
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>Sample Request:
+
+query{
+  chain{
+    mostRecentEpoch
+    mostRecentBlockHeight
+    mostRecentTPS(blockWindow: 10)
+    numberOfActions(pagination: {startEpoch: 1, epochCount: 10}){
+      exist
+      count
+    }
+  }
+}
+
+Sample Response:
+
+{
+  &quot;data&quot;: {
+    &quot;chain&quot;: {
+      &quot;mostRecentEpoch&quot;: 1383,
+      &quot;mostRecentBlockHeight&quot;: 497772,
+      &quot;mostRecentTPS&quot;: 0,
+      &quot;numberOfActions&quot;: {
+        &quot;exist&quot;: true,
+        &quot;count&quot;: 3622
+      }
+    }
+  }
+} 
+</code></pre></div><h3 id="voting"><a href="#voting" aria-hidden="true" class="header-anchor">#</a> Voting</h3> <div class="language- extra-class"><pre class="language-text"><code>Usage:
+  Voting provides metadata of voting results
+
+Request:
+  startEpoch: starting epoch number
+  epochCount: epoch count
+
+Reponse:
+  exist: whether the starting epoch number is less than the most recent epoch number 
+  candidateMeta:
+    epochNumber:  epoch number
+    consensusDelegates: number of consensus delegates in the epoch
+    totalCandidates: number of total delegates in the epoch
+    totalWeightedVotes: candidate total weighted votes in the epoch
+    votedTokens: total voted tokens in the epoch
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>Sample Request:
+
+query{
+  voting(startEpoch: 1, epochCount: 3){
+    exist
+    candidateMeta{
+      epochNumber
+      consensusDelegates
+      totalCandidates
+      totalWeightedVotes
+      votedTokens
+    }
+  }
+}
+  
+Sample Response:
+
+{
+  &quot;data&quot;: {
+    &quot;voting&quot;: {
+      &quot;exist&quot;: true,
+      &quot;candidateMeta&quot;: [
+        {
+          &quot;epochNumber&quot;: 1,
+          &quot;consensusDelegates&quot;: 36,
+          &quot;totalCandidates&quot;: 87,
+          &quot;totalWeightedVotes&quot;: &quot;907521920724956720472322956&quot;,
+          &quot;votedTokens&quot;: &quot;776946421831717811810000000&quot;
+        },
+        {
+          &quot;epochNumber&quot;: 2,
+          &quot;consensusDelegates&quot;: 36,
+          &quot;totalCandidates&quot;: 87,
+          &quot;totalWeightedVotes&quot;: &quot;907524412616270399722024013&quot;,
+          &quot;votedTokens&quot;: &quot;776948876231717811810000000&quot;
+        },
+        {
+          &quot;epochNumber&quot;: 3,
+          &quot;consensusDelegates&quot;: 36,
+          &quot;totalCandidates&quot;: 87,
+          &quot;totalWeightedVotes&quot;: &quot;907486769208330536874270055&quot;,
+          &quot;votedTokens&quot;: &quot;776953490231717811810000000&quot;
+        }
+      ]
+    }
+  }
+}  
+</code></pre></div><h3 id="account"><a href="#account" aria-hidden="true" class="header-anchor">#</a> Account</h3> <h4 id="activeaccounts"><a href="#activeaccounts" aria-hidden="true" class="header-anchor">#</a> ActiveAccounts</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  ActiveAccounts lists most recently active accounts
+  
+Request:
+  count: number of account addresses to be queried for active accounts 
+
+Response:
+  activeAccounts: list of account addresses
+</code></pre></div><h4 id="operatoraddress"><a href="#operatoraddress" aria-hidden="true" class="header-anchor">#</a> OperatorAddress</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  OperatorAddress finds the delegate's operator address given the delegate's alias name
+  
+Request:
+  aliasName: delegate's alias name 
+
+Response:
+  exist: whether the alias name exists
+  operatorAddress:  operator address associated with the given alias name
+</code></pre></div><h4 id="alias"><a href="#alias" aria-hidden="true" class="header-anchor">#</a> Alias</h4> <div class="language- extra-class"><pre class="language-text"><code>Usage: 
+  Alias finds the delegate's alias name given the delegate's operator address
+  
+Request:
+  operatorAddress: delegate's operator address 
+
+Response:
+  exist: whether the operator address exists
+  aliasName: alias name associated with the given operator address
+</code></pre></div><p>Demo:</p> <div class="language- extra-class"><pre class="language-text"><code>Sample Request:
+
+query{
+  account{
+    activeAccounts(count: 5)
+    operatorAddress(aliasName: &quot;gamefantasy#&quot;){
+      exist
+      operatorAddress
+    }
+    alias(operatorAddress: &quot;io1456knehzn9qup8unxlf4q06empz8lqxtp6v5vh&quot;){
+      exist
+      aliasName
+    }
+  }
+}
+
+Sample Response:
+
+{
+  &quot;data&quot;: {
+    &quot;account&quot;: {
+      &quot;activeAccounts&quot;: [
+        &quot;io108h7sa5sap44e244hz649zyk5y4rqzsvnpzxh5&quot;,
+        &quot;io1jafqlvntcxgyp6e0uxctt3tljzc3vyv5hg4ukh&quot;,
+        &quot;io1gfq9el2gnguus64ex3hu8ajd6e4yzk3f9cz5vx&quot;,
+        &quot;io1qnec80ark9shjc6uzk45dhm8s50dpc27sjuver&quot;,
+        &quot;io12wc9ra4la98yay4cqdav5mwxxuzwpt6hk23n3z&quot;
+      ],
+      &quot;operatorAddress&quot;: {
+        &quot;exist&quot;: true,
+        &quot;operatorAddress&quot;: &quot;io1qnec80ark9shjc6uzk45dhm8s50dpc27sjuver&quot;
+      },
+      &quot;alias&quot;: {
+        &quot;exist&quot;: true,
+        &quot;aliasName&quot;: &quot;pubxpayments&quot;
+      }
+    }
+  }
+}  
+</code></pre></div><h2 id="testnet"><a href="#testnet" aria-hidden="true" class="header-anchor">#</a> Testnet</h2> <p>The IoTeX Testnet is now fully open for community and developers! Join our Testnet and interact with IoTeX network today!</p> <h3 id="set-up-the-node"><a href="#set-up-the-node" aria-hidden="true" class="header-anchor">#</a> Set up the node</h3> <p>Our complete software is packaged in the form of a docker image plus a config file for the convenience of set-up and deployment. You can easily set up and run a node by following instructions at https://github.com/iotexproject/iotex-testnet.</p> <p>As of now, your node will be join as a fullnode to IoTeX network. Once we open the staking/voting on the testnet, you could promote your fullnode to a delegate and participate in block production. Expect that in the next few weeks.</p> <h3 id="talk-to-us"><a href="#talk-to-us" aria-hidden="true" class="header-anchor">#</a> Talk to us</h3> <p>If you encounter any technical problem when connect to the testnet, please do not hesitate to contact us via <a href="https://gitter.im/iotex-dev-community/Lobby" target="_blank" rel="noopener noreferrer">gitter<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. In addition to this, please file issues under https://github.com/iotexproject/iotex-core/issues and we will investigate.</p> <h2 id="write-a-smart-contract"><a href="#write-a-smart-contract" aria-hidden="true" class="header-anchor">#</a> Write a Smart Contract</h2> <p>TBD</p> <h2 id="glossary"><a href="#glossary" aria-hidden="true" class="header-anchor">#</a> Glossary</h2> <ul><li><p>Delegate: the blockchain node which is elected to propose and validate new blocks, a.k.a. block producer.</p></li> <li><p><a href="https://en.wikipedia.org/wiki/Solidity" target="_blank" rel="noopener noreferrer">Solidity<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>: the contract oriented programming language.</p></li> <li><p>Epoch: an epoch is composed for 8640 blocks which is responsible by the same group of delegates.</p></li> <li><p>Block period: the interval in seconds that blocks are produced. During the launch of the mainnet, the block period is 10 seconds, which will be reduced as the protocol gets stabilized.</p></li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/iotexproject/iotex-docs/edit/master/README.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">6/26/2019, 12:04:06 PM</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/docs/libraries-and-tools.html">
+          Libraries and Tools
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.16bc0f2c.js" defer></script><script src="/assets/js/2.3fbdcbfd.js" defer></script><script src="/assets/js/5.f1f7f765.js" defer></script>
+  </body>
+</html>
